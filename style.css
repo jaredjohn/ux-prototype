@@ -1,0 +1,43 @@
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+  margin-top: 0 !important;
+}
+#absolute-wrapper {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  height: 1px;
+}
+#absolute-wrapper input.textinput {
+  width: 370px;
+  height: 18px;
+  position: absolute;
+  top: 108px;
+  left: 54px;
+}
+#absolute-wrapper .btn-group {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 155px;
+  left: 174px;
+}
+#absolute-wrapper select {
+  border: 1px solid #c2c2c2;
+  width: 100px;
+  height: 25px;
+  position: absolute;
+  top: 156px;
+  left: 54px;
+}
+#absolute-wrapper .btn.btn-1 {
+  width: 72px;
+  height: 30px;
+  position: absolute;
+  top: 611px;
+  left: -267px;
+}
+.container {
+  margin-top: 10px;
+}
